@@ -4,16 +4,11 @@ The project involves data cleaning, preprocessing, dimensionality reduction, and
 
 # Methodology
 
-**Techonologies Used:**
-- Python
-- NumPy
-- Pandas
-- Scikit-learn
-- Matplotlib / Seaborn
+**Techonologies Used:** Python, NumPy, Pandas, Scikit-learn, Matplotlib / Seaborn
 
 1. Data Cleaning and Preparation
 
-- Imported and examined two datasets: a general population dataset and a customer dataset.
+- Imported and examined two demographic datasets: one for the general population and another for the company's current customers.
 - Removed redundant columns and standardized column names across both datasets.
 - Handled missing values through imputation and feature-wise filtering.
 - Encoded categorical variables and normalized numerical features for comparability.
@@ -21,13 +16,13 @@ The project involves data cleaning, preprocessing, dimensionality reduction, and
 2. Dimensionality Reduction
 
 - Applied Principal Component Analysis (PCA) to reduce feature dimensionality while retaining maximum variance.
-- Determined the number of components explaining 80% of the data variance.
+- Determined the number of components explaining 80% of the data variance to be 81.
 - Generated a reduced feature set to improve clustering performance and interpretability.
 
 3. Clustering
 
 - Implemented K-Means clustering to segment customers based on PCA-transformed features.
-- Used the elbow method and silhouette scores to determine the optimal number of clusters.
+- Used the elbow method to determine the optimal number of clusters.
 - Assigned cluster labels to customers and interpreted the resulting groups.
 
 4. Segment Profiling and Interpretation
