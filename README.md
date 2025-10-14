@@ -35,3 +35,13 @@ The project involves data cleaning, preprocessing, dimensionality reduction, and
 - Compared cluster distributions between the general population and customer base.
 - Identified segments with higher representation among customers for future targeted campaigns.
 - Visualized results with scatter plots and component contributions to enhance interpretability.
+
+# Key Outcomes
+
+- Discovered distinct customer segments with identifiable demographic and behavioral patterns.
+- Demonstrated the effectiveness of PCA for dimensionality reduction and K-Means for unsupervised segmentation.
+- Produced interpretable insights to support data-driven marketing and customer engagement strategies.
+
+
+
+
